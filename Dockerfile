@@ -8,6 +8,7 @@ RUN yum -y upgrade \
  && yum -y install \
         bash \
         ca-certificates \
+        yum-utils \
         centos-release-scl \
         epel-release \
  && yum -y clean all --enablerepo='*'
