@@ -4,6 +4,8 @@
 
 FROM centos:centos7
 
+WORKDIR /build/
+
 RUN yum -y upgrade \
  && yum -y install \
         bash \
