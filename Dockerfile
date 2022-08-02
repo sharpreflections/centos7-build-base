@@ -2,7 +2,7 @@
 # Base Image
 ###############################################################################
 
-FROM centos:centos7
+FROM quay.io/centos/centos:centos7
 
 WORKDIR /build/
 
