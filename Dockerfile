@@ -16,7 +16,7 @@ COPY CentOS-SCLo-scl-rh.repo /etc/yum.repos.d/
 
 RUN rm -f /etc/yum.repos.d/CentOS-SCLo-scl.repo
 COPY CentOS-SCLo-scl.repo /etc/yum.repos.d/
-c 
+
 RUN yum clean all
 
 RUN yum -y upgrade \
