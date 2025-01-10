@@ -26,6 +26,7 @@ RUN yum -y upgrade \
         yum-utils \
         centos-release-scl \
         epel-release \
+        git \
  && yum -y clean all --enablerepo='*'
 
 ENV LANGUAGE=en_US.UTF-8 \
